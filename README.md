@@ -1,2 +1,2 @@
 # LeetCode-Scala
-Leet Code problems resolved in Scala
+Solutions in Scala to Leetcode Problems

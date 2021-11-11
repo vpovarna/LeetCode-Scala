@@ -1,4 +1,4 @@
-package com.leetcode.top100LikedQuestions
+package com.leetcode
 
 import scala.language.postfixOps
 
