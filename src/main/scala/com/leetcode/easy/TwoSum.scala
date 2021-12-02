@@ -1,4 +1,4 @@
-package com.leetcode
+package com.leetcode.easy
 
 import scala.annotation.tailrec
 import scala.util.control.Breaks.{break, breakable}
@@ -47,7 +47,7 @@ object TwoSum extends App {
   }
 
 
-//  Second solution using TailRec
+  //  Second solution using TailRec
   def twoSumSecondImpl(nums: Array[Int], target: Int): Array[Int] =
     recursiveTwoSum(nums.zipWithIndex, target)
 

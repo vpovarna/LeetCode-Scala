@@ -1,6 +1,4 @@
-package com.leetcode
-
-import scala.language.postfixOps
+package com.leetcode.easy
 
 /**
  * @author Adobe Systems Incorporated.
@@ -8,7 +6,7 @@ import scala.language.postfixOps
 object BinaryTreeInorderTraversal extends App {
 
   def inorderTraversal(root: TreeNode): List[Int] = {
-    if(root == null)  Nil
+    if (root == null) Nil
     else inorderTraversal(root.left) ::: List(root.value) ::: inorderTraversal(root.right)
   }
 
