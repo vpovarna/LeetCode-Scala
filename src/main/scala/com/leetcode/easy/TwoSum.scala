@@ -3,9 +3,6 @@ package com.leetcode.easy
 import scala.annotation.tailrec
 import scala.util.control.Breaks.{break, breakable}
 
-/**
- * @author Adobe Systems Incorporated.
- */
 object TwoSum extends App {
 
   /**

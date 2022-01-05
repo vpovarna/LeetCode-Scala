@@ -3,9 +3,7 @@ package com.leetcode.easy
 import scala.annotation.tailrec
 import scala.collection.mutable
 
-/**
- * @author Adobe Systems Incorporated.
- */
+
 object ValidParentheses extends App {
 
   /**

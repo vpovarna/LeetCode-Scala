@@ -2,9 +2,6 @@ package com.leetcode.easy
 
 import scala.annotation.tailrec
 
-/**
- * @author Adobe Systems Incorporated.
- */
 object BestTimeToBuyStock extends App {
   def maxProfit(prices: Array[Int]): Int = {
     maxProfitRecursive(prices, 0, Integer.MAX_VALUE)

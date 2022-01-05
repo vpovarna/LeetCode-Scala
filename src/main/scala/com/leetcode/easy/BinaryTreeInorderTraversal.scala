@@ -1,8 +1,5 @@
 package com.leetcode.easy
 
-/**
- * @author Adobe Systems Incorporated.
- */
 object BinaryTreeInorderTraversal extends App {
 
   def inorderTraversal(root: TreeNode): List[Int] = {

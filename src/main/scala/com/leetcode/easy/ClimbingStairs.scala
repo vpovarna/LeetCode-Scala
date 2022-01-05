@@ -2,9 +2,6 @@ package com.leetcode.easy
 
 import scala.annotation.tailrec
 
-/**
- * @author Adobe Systems Incorporated.
- */
 object ClimbingStairs extends App {
 
   def climbStairs(n: Int): Int = {
