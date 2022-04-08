@@ -20,4 +20,8 @@ Problems
 | 12           | [Search Insert Position](https://leetcode.com/problems/search-insert-position/)                                  | [SearchInsertPositionProblem](src/main/scala/com/leetcode/easy/SearchInsertPositionProblem.scala) |
 | 13           | [Implement strStr()](https://leetcode.com/problems/implement-strstr/)                                            | [StringStr](src/main/scala/com/leetcode/easy/StringStr.scala)                                     |
 | 14           | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                                    | [ValidAnagram](src/main/scala/com/leetcode/easy/ValidAnagram.scala)                               |
+### Medium Problems
+| Problem Name | Problem Name                                                                                                     | Scala Solution                                                                                    |
+|:-------------|:-----------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------|
+| 1            | [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/)                        | [TwoSumII](src/main/scala/com/letcode/Medium/TwoSumII.scala)                                      |
 

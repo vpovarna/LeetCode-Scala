@@ -33,7 +33,6 @@ object TwoSum {
 
     twoSumTailRec(nums, Array.empty[Int])
   }
-
 }
 
 class TwoSumSpec extends AnyFlatSpec with Matchers {
