@@ -1,9 +1,11 @@
 # LeetCode-Scala
+
 Solutions in Scala to LeetCode Problems
 
 Problems
 
 ### Easy Problems
+
 | Problem Name | Problem Name                                                                                                     | Scala Solution                                                                                    |
 |:-------------|:-----------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------|
 | 1            | [Two Sum](https://leetcode.com/problems/two-sum/)                                                                | [TwoSum](src/main/scala/com/leetcode/easy/TwoSum.scala)                                           |
@@ -20,8 +22,15 @@ Problems
 | 12           | [Search Insert Position](https://leetcode.com/problems/search-insert-position/)                                  | [SearchInsertPositionProblem](src/main/scala/com/leetcode/easy/SearchInsertPositionProblem.scala) |
 | 13           | [Implement strStr()](https://leetcode.com/problems/implement-strstr/)                                            | [StringStr](src/main/scala/com/leetcode/easy/StringStr.scala)                                     |
 | 14           | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                                    | [ValidAnagram](src/main/scala/com/leetcode/easy/ValidAnagram.scala)                               |
-### Medium Problems
-| Problem Name | Problem Name                                                                                                     | Scala Solution                                                                                    |
-|:-------------|:-----------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------|
-| 1            | [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/)                        | [TwoSumII](src/main/scala/com/letcode/Medium/TwoSumII.scala)                                      |
 
+### Medium Problems
+
+| Problem Name | Problem Name                                                                                      | Scala Solution                                                                                     |
+|:-------------|:--------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------|
+| 1            | [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/)         | [TwoSumII](src/main/scala/com/letcode/medium/TwoSumII.scala)                                       |
+| 2            | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                                 | [AddTwoNumbers](src/main/scala/com/letcode/medium/AddTwoNumbers.scala)                             |
+| 3            | [HouseRobber](https://leetcode.com/problems/house-robber/)                                        | [HouseRobber](src/main/scala/com/letcode/medium/HouseRobber.scala)                                 |                                                                        |              
+| 4            | [LongestPalindromicSubstring](https://leetcode.com/problems/longest-palindromic-substring/)       | [LongestPalindromicSubstring](src/main/scala/com/letcode/medium/LongestPalindromicSubstring.scala) |
+| 5            | [atoi](https://leetcode.com/problems/string-to-integer-atoi/)                                     | [AtoiProblem](src/main/scala/com/letcode/medium/AtoiProblem.scala)                                 |
+| 6            | [LongestSubstring](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [LongestSubstring](src/main/scala/com/letcode/medium/LongestSubstring.scala)                       |
+| 7            | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)                                 | [Reverse Integer](src/main/scala/com/letcode/medium/ReverseInteger.scala)                          |    
