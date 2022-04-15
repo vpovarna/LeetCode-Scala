@@ -23,11 +23,11 @@ object AtoiProblem {
   }
 
   def main(args: Array[String]): Unit = {
-//    println(myAtoi("-42"))
+    println(myAtoi("-42"))
     println(myAtoi("42"))
-//    println(myAtoi("0042"))
-//    println(myAtoi("4193 with words"))
-//    println(myAtoi("   -42"))
-//    println(myAtoi("words and 987"))
+    println(myAtoi("0042"))
+    println(myAtoi("4193 with words"))
+    println(myAtoi("   -42"))
+    println(myAtoi("words and 987"))
   }
 }
