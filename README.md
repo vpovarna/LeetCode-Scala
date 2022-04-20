@@ -23,17 +23,22 @@ Problems
 | 13           | [Implement strStr()](https://leetcode.com/problems/implement-strstr/)                                         | [StringStr](src/main/scala/com/leetcode/easy/StringStr.scala)                                     |
 | 14           | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                                 | [ValidAnagram](src/main/scala/com/leetcode/easy/ValidAnagram.scala)                               |
 | 15           | [RomanInteger](https://leetcode.com/problems/roman-to-integer/)                                               | [RomanInteger](src/main/scala/com/leetcode/easy/RomanInteger.scala)                               |
+| 16           | [RemoveElement](https://leetcode.com/problems/remove-element/)                                                | [RemoveElement](src/main/scala/com/leetcode/easy/RemoveElement.scala)                             | 
 
 ### Medium Problems
 
-| Problem Name | Problem Name                                                                                              | Scala Solution                                                                                     |
-|:-------------|:----------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------|
-| 1            | [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/)                 | [TwoSumII](src/main/scala/com/letcode/medium/TwoSumII.scala)                                       |
-| 2            | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                                         | [AddTwoNumbers](src/main/scala/com/letcode/medium/AddTwoNumbers.scala)                             |
-| 3            | [HouseRobber](https://leetcode.com/problems/house-robber/)                                                | [HouseRobber](src/main/scala/com/letcode/medium/HouseRobber.scala)                                 |                                                                        |              
-| 4            | [LongestPalindromicSubstring](https://leetcode.com/problems/longest-palindromic-substring/)               | [LongestPalindromicSubstring](src/main/scala/com/letcode/medium/LongestPalindromicSubstring.scala) |
-| 5            | [atoi](https://leetcode.com/problems/string-to-integer-atoi/)                                             | [AtoiProblem](src/main/scala/com/letcode/medium/AtoiProblem.scala)                                 |
-| 6            | [LongestSubstring](https://leetcode.com/problems/longest-substring-without-repeating-characters/)         | [LongestSubstring](src/main/scala/com/letcode/medium/LongestSubstring.scala)                       |
-| 7            | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)                                         | [Reverse Integer](src/main/scala/com/letcode/medium/ReverseInteger.scala)                          |    
-| 8            | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)                       | [MaximumProductSubarray](src/main/scala/com/letcode/medium/MaximumProductSubarray.scala)           |
-| 9            | [3Sum](https://leetcode.com/problems/3sum/)                                                               | [3Sum](src/main/scala/com/letcode/medium/ThreeSum.scala)                                           |
+| Problem Name    | Problem Name                                                                                              | Scala Solution                                                                                     |
+|:----------------|:----------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------|
+| 1               | [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/)                 | [TwoSumII](src/main/scala/com/letcode/medium/TwoSumII.scala)                                       |
+| 2               | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                                         | [AddTwoNumbers](src/main/scala/com/letcode/medium/AddTwoNumbers.scala)                             |
+| 3               | [HouseRobber](https://leetcode.com/problems/house-robber/)                                                | [HouseRobber](src/main/scala/com/letcode/medium/HouseRobber.scala)                                 |                                                                        |              
+| 4               | [LongestPalindromicSubstring](https://leetcode.com/problems/longest-palindromic-substring/)               | [LongestPalindromicSubstring](src/main/scala/com/letcode/medium/LongestPalindromicSubstring.scala) |
+| 5               | [atoi](https://leetcode.com/problems/string-to-integer-atoi/)                                             | [AtoiProblem](src/main/scala/com/letcode/medium/AtoiProblem.scala)                                 |
+| 6               | [LongestSubstring](https://leetcode.com/problems/longest-substring-without-repeating-characters/)         | [LongestSubstring](src/main/scala/com/letcode/medium/LongestSubstring.scala)                       |
+| 7               | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)                                         | [Reverse Integer](src/main/scala/com/letcode/medium/ReverseInteger.scala)                          |    
+| 8               | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)                       | [MaximumProductSubarray](src/main/scala/com/letcode/medium/MaximumProductSubarray.scala)           |
+| 9               | [3Sum](https://leetcode.com/problems/3sum/)                                                               | [3Sum](src/main/scala/com/letcode/medium/ThreeSum.scala)                                           |
+| 10              | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [PhoneNumberLetterCombinations](src/main/scala/com/letcode/medium/PhoneNumberLetterCombinations.scala)|
+| 11              | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)         / [RemoveNthNodeFromEndOfList](src/main/scala/com/letcode/medium/RemoveNthNodeFromEndOfList.scala) |
+
+
