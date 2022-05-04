@@ -39,11 +39,11 @@ object LongestPalindromicSubstring {
 
 
   def main(args: Array[String]): Unit = {
-//    println(longestPalindrome("ebadabe"))
-//    println(longestPalindrome("ecbbce"))
-//    println(longestPalindrome("babad"))
-//    println(longestPalindrome("ac"))
-//    println(longestPalindrome("abb"))
+    println(longestPalindrome("ebadabe"))
+    println(longestPalindrome("ecbbce"))
+    println(longestPalindrome("babad"))
+    println(longestPalindrome("ac"))
+    println(longestPalindrome("abb"))
     println(longestPalindrome("a"))
   }
 
