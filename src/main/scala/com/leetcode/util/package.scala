@@ -9,6 +9,10 @@ package object util {
     var x: Int = _x
   }
 
+  object ListNode {
+    def apply(x: Int) = new ListNode(x)
+  }
+
   def printListNode(listNode: ListNode): Unit = {
     var tmpListNode = listNode
     val tmpArray = ArrayBuffer[Int]()
