@@ -1,28 +1,33 @@
 package com.leetcode.easy
 
-import scala.annotation.tailrec
+object ClimbingStairs {
 
-object ClimbingStairs extends App {
-
+  // TopDown
   def climbStairs(n: Int): Int = {
-    if (n == 1) 1
-    else if (n == 2) 2
+    if (n <= 0) 0
+    else if (n == 1) 1
     else {
-      calculateResultRecursion(n, 1, 2, 3)
+      val t = (n - 2 to 0 by -1).foldLeft(1, 1) { case ((a, b), _) =>
+        (a + b, a)
+      }
+      t._1
     }
   }
 
-  @tailrec
-  def calculateResultRecursion(n: Int, first: Int, second: Int, result: Int): Int = {
-    if (n < 3) result
+  // BottomUp
+  def climbingStairsBottomUp(n: Int): Int ={
+    if (n <= 0) 0
     else {
-      val newResult = first + second
-      calculateResultRecursion(n - 1, second, newResult, newResult)
+      (1 to n).foldLeft(0, 1) { case((a, b), _) =>
+        (b, a+b)
+      }._2
     }
   }
 
-  println(climbStairs(2))
-  println(climbStairs(4))
-  println(climbStairs(5))
-
+  def main(args: Array[String]): Unit = {
+    println(climbingStairsBottomUp(1)) //1
+    println(climbingStairsBottomUp(2)) //2
+    println(climbingStairsBottomUp(3)) //3
+    println(climbingStairsBottomUp(5)) //8
+  }
 }
