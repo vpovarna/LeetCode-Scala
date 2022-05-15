@@ -19,8 +19,25 @@ object ClimbingStairs {
     if (n <= 0) 0
     else {
       (1 to n).foldLeft(0, 1) { case((a, b), _) =>
+        println(a, b)
         (b, a+b)
       }._2
+    }
+  }
+
+  // DynamicProgramming
+  def climbingStairsDp(n: Int): Int ={
+    if (n <= 0) 0
+    else {
+      var i = 0
+      var j = 1
+
+      (1 to n).foreach{ _ =>
+        val prevJ = j
+        j = i + j
+        i = prevJ
+      }
+      j
     }
   }
 
