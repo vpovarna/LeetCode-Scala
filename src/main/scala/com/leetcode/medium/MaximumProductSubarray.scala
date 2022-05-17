@@ -2,9 +2,6 @@ package com.leetcode.medium
 
 import org.scalatest.wordspec.AnyWordSpec
 
-import scala.annotation.tailrec
-import scala.collection.mutable.ArrayBuffer
-
 /**
  * Given an integer array nums, find a contiguous non-empty subarray within the array that has the largest product, and return the product.
  */
