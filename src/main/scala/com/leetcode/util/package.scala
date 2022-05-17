@@ -35,10 +35,10 @@ package object util {
   }
 
   def reverseList(listNode: ListNode): ListNode = {
-    var tmpList: ListNode= listNode
+    var tmpList: ListNode = listNode
     var result: ListNode = null
 
-    while(tmpList != null) {
+    while (tmpList != null) {
       val tmp = result
       result = new ListNode(tmpList.x, tmp)
       tmpList = tmpList.next
@@ -46,4 +46,11 @@ package object util {
 
     result
   }
+
+  class TreeNode(_value: Int, _right: TreeNode = null, _left: TreeNode = null) {
+    var value: Int = _value
+    var right: TreeNode = _right
+    var left: TreeNode = _left
+  }
+
 }
