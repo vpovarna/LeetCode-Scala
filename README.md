@@ -93,3 +93,4 @@ Problems
 | 1            | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)                                        | [LongestValidParentheses](src/main/scala/com/letcode/medium/LongestValidParentheses.scala) |
 | 2            | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)                                    | [MedianOfTwoSortedArray](src/main/scala/com/letcode/medium/MedianOfTwoSortedArray.scala)   |
 | 3            | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)                                              | [FirstMissingPositive](src/main/scala/com/letcode/medium/FirstMissingPositive.scala)       |
+| 4            | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                                              | [SlidingWindowMaximum](src/main/scala/com/letcode/medium/SlidingWindowMaximum.scala)       |
