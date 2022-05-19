@@ -1,4 +1,4 @@
-package com.leetcode.hard
+package com.leetcode.medium
 
 object MinimumSizeSubarraySum {
   def minSubArrayLen(target: Int, nums: Array[Int]): Int = {
