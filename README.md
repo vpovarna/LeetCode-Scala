@@ -111,6 +111,7 @@ Problems
 
 ### Easy Problems
 
-| Problem Name | Problem Name                                                                                                                                               | SQL Solution                                                      |
-|:-------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------|
-| 1            | [Big Countries](https://leetcode.com/problems/big-countries/)                                                                                              | [BigCountries](src/main/sql/com.leetcode/easy/BigCountries.sql)   |
+| Problem Name | Problem Name                                                                                                                                                                                               | SQL Solution                                                                             |
+|:-------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
+| 1            | [Big Countries](https://leetcode.com/problems/big-countries/)                                                                                                                                              | [BigCountries](src/main/sql/com.leetcode/easy/BigCountries.sql)                          |
+| 2            | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/)                                                                                                          | [RecyclableLowFatProducts](src/main/sql/com.leetcode/easy/RecyclableLowFatProducts.sql)  |
