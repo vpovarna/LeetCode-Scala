@@ -106,7 +106,7 @@ Problems
 | 4            | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                                              | [SlidingWindowMaximum](src/main/scala/com/leetcode/hard/SlidingWindowMaximum.scala)       |
 
 
-#LeetCode-SQL
+# LeetCode-SQL
 Problems
 
 ### Easy Problems
