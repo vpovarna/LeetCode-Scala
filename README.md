@@ -111,8 +111,9 @@ Problems
 
 ### Easy Problems
 
-| Problem Name | Problem Name                                                                                      | SQL Solution                                                                            |
-|:-------------|:--------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------|
-| 1            | [Big Countries](https://leetcode.com/problems/big-countries/)                                     | [BigCountries](src/main/sql/com.leetcode/easy/BigCountries.sql)                         |
-| 2            | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | [RecyclableLowFatProducts](src/main/sql/com.leetcode/easy/RecyclableLowFatProducts.sql) |
-| 3            | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/)                     | [FindCustomerReferee](src/main/sql/com.leetcode/easy/FindCustomerReferee.sql)           |
+| Problem Name | Problem Name                                                                                                                                                 | SQL Solution                                                                                                        |
+|:-------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
+| 1            | [Big Countries](https://leetcode.com/problems/big-countries/)                                                                                                | [BigCountries](src/main/sql/com.leetcode/easy/BigCountries.sql)                                                     |
+| 2            | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/)                                                            | [RecyclableLowFatProducts](src/main/sql/com.leetcode/easy/RecyclableLowFatProducts.sql)                             |
+| 3            | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/)                                                                                | [FindCustomerReferee](src/main/sql/com.leetcode/easy/FindCustomerReferee.sql)                                       |
+| 4            | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)                                                                        | [CustomersWhoNeverOrder](src/main/sql/com.leetcode/easy/CustomersWhoNeverOrder.sql)                                 |
