@@ -104,3 +104,13 @@ Problems
 | 2            | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)                                    | [MedianOfTwoSortedArray](src/main/scala/com/leetcode/hard/MedianOfTwoSortedArray.scala)   |
 | 3            | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)                                              | [FirstMissingPositive](src/main/scala/com/leetcode/hard/FirstMissingPositive.scala)       |
 | 4            | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                                              | [SlidingWindowMaximum](src/main/scala/com/leetcode/hard/SlidingWindowMaximum.scala)       |
+
+
+#LeetCode-SQL
+Problems
+
+### Easy Problems
+
+| Problem Name | Problem Name                                                                                                                                               | SQL Solution                                                      |
+|:-------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------|
+| 1            | [Big Countries](https://leetcode.com/problems/big-countries/)                                                                                              | [BigCountries](src/main/sql/com.leetcode/easy/BigCountries.sql)   |
