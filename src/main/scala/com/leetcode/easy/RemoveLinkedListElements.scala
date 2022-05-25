@@ -4,7 +4,7 @@ import com.leetcode.util.{ListNode, printListNode, reverseList}
 
 object RemoveLinkedListElements {
 
-  def reverseLinkedList(head: ListNode, `val`: Int): ListNode = {
+  def removeElements(head: ListNode, `val`: Int): ListNode = {
     val dummyHead = new ListNode(Int.MinValue)
     dummyHead.next = head
 
