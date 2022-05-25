@@ -99,23 +99,27 @@ Problems
 
 ### Hard Problems
 
-| Problem Name | Problem Name                                                                                                                 | Scala Solution                                                                            |
-|:-------------|:-----------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------|
-| 1            | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)                                        | [LongestValidParentheses](src/main/scala/com/leetcode/hard/LongestValidParentheses.scala) |
-| 2            | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)                                    | [MedianOfTwoSortedArray](src/main/scala/com/leetcode/hard/MedianOfTwoSortedArray.scala)   |
-| 3            | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)                                              | [FirstMissingPositive](src/main/scala/com/leetcode/hard/FirstMissingPositive.scala)       |
-| 4            | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                                              | [SlidingWindowMaximum](src/main/scala/com/leetcode/hard/SlidingWindowMaximum.scala)       |
+| Problem Name | Problem Name                                                                                                                                               | Scala Solution                                                                            |
+|:-------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------|
+| 1            | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)                                                                      | [LongestValidParentheses](src/main/scala/com/leetcode/hard/LongestValidParentheses.scala) |
+| 2            | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)                                                                  | [MedianOfTwoSortedArray](src/main/scala/com/leetcode/hard/MedianOfTwoSortedArray.scala)   |
+| 3            | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)                                                                            | [FirstMissingPositive](src/main/scala/com/leetcode/hard/FirstMissingPositive.scala)       |
+| 4            | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                                                                            | [SlidingWindowMaximum](src/main/scala/com/leetcode/hard/SlidingWindowMaximum.scala)       |
+| 5            | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)                                                                                | [MergeSortedLists](src/main/scala/com/leetcode/hard/MergeSortedLists.scala)               |
+
 
 
 # LeetCode-SQL
+
 Problems
 
 ### Easy Problems
 
-| Problem Name | Problem Name                                                                                                                                                | SQL Solution                                                                        |
-|:-------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------|
-| 1            | [Big Countries](https://leetcode.com/problems/big-countries/)                                                                                               | [BigCountries](src/main/sql/leetcode/easy/BigCountries.sql)                         |
-| 2            | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/)                                                           | [RecyclableLowFatProducts](src/main/sql/leetcode/easy/RecyclableLowFatProducts.sql) |
-| 3            | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/)                                                                               | [FindCustomerReferee](src/main/sql/leetcode/easy/FindCustomerReferee.sql)           |
-| 4            | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)                                                                       | [CustomersWhoNeverOrder](src/main/sql/leetcode/easy/CustomersWhoNeverOrder.sql)     |
-| 5            | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)                                                                                 | [MergeSortedLists](src/main/sql/leetcode/easy/MergeSortedLists .sql)                |
+| Problem Name | Problem Name                                                                                      | SQL Solution                                                                                                |
+|:-------------|:--------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------|
+| 1            | [Big Countries](https://leetcode.com/problems/big-countries/)                                     | [BigCountries](src/main/sql/leetcode/easy/BigCountries.sql)                                                 |
+| 2            | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | [RecyclableLowFatProducts](src/main/sql/leetcode/easy/RecyclableLowFatProducts.sql)                         |
+| 3            | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/)                     | [FindCustomerReferee](src/main/sql/leetcode/easy/FindCustomerReferee.sql)                                   |
+| 4            | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)             | [CustomersWhoNeverOrder](src/main/sql/leetcode/easy/CustomersWhoNeverOrder.sql)                             |
+| 5            | [Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus)                  | [CalculateSpecialBonus](src/main/sql/leetcode/easy/CalculateSpecialBonus.sql)                               |
+| 6            | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)                 | [DeleteDuplicateEmails](src/main/sql/leetcode/easy/DeleteDuplicateEmails.sql)                               |
