@@ -15,9 +15,24 @@ object RemoveDuplicatesSortedArray {
     i + 1
   }
 
+  def removeDuplicatesRecursive(nums: Array[Int]): Int = {
+    @scala.annotation.tailrec
+    def removeDuplicatesTailRec(i: Int = 0, j: Int = 0): Int = {
+      if (j == nums.length) i + 1
+      else {
+        if (nums(i) != nums(j)) {
+          nums(i + 1) = nums(j)
+          removeDuplicatesTailRec(i + 1, j + 1)
+        } else removeDuplicatesTailRec(i, j + 1)
+      }
+    }
+
+    removeDuplicatesTailRec()
+  }
+
   def main(args: Array[String]): Unit = {
-    println(removeDuplicates(Array(1,1,2)))
-    println(removeDuplicates(Array(0,0,1,1,1,2,2,3,3,4)))
+    println(removeDuplicatesRecursive(Array(1, 1, 2)))
+    println(removeDuplicatesRecursive(Array(0, 0, 1, 1, 1, 2, 2, 3, 3, 4)))
   }
 
 }
