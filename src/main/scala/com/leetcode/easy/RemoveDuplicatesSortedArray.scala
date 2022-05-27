@@ -15,6 +15,7 @@ object RemoveDuplicatesSortedArray {
     i + 1
   }
 
+  // TODO: Implement with fold Left
   def removeDuplicatesRecursive(nums: Array[Int]): Int = {
     @scala.annotation.tailrec
     def removeDuplicatesTailRec(i: Int = 0, j: Int = 0): Int = {
