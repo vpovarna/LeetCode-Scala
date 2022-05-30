@@ -119,12 +119,13 @@ Problems
 
 ### Easy Problems
 
-| Problem Name | Problem Name                                                                                      | SQL Solution                                                                        |
-|:-------------|:--------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------|
-| 1            | [Big Countries](https://leetcode.com/problems/big-countries/)                                     | [BigCountries](src/main/sql/leetcode/easy/BigCountries.sql)                         |
-| 2            | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | [RecyclableLowFatProducts](src/main/sql/leetcode/easy/RecyclableLowFatProducts.sql) |
-| 3            | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/)                     | [FindCustomerReferee](src/main/sql/leetcode/easy/FindCustomerReferee.sql)           |
-| 4            | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)             | [CustomersWhoNeverOrder](src/main/sql/leetcode/easy/CustomersWhoNeverOrder.sql)     |
-| 5            | [Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus)                  | [CalculateSpecialBonus](src/main/sql/leetcode/easy/CalculateSpecialBonus.sql)       |
-| 6            | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)                 | [DeleteDuplicateEmails](src/main/sql/leetcode/easy/DeleteDuplicateEmails.sql)       |
-| 7            | [Swap Salary](https://leetcode.com/problems/swap-salary/)                                         | [SwapSalary](src/main/sql/leetcode/easy/SwapSalary.sql)                             |
+| Problem Name | Problem Name                                                                                                                  | SQL Solution                                                                                         |
+|:-------------|:------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|
+| 1            | [Big Countries](https://leetcode.com/problems/big-countries/)                                                                 | [BigCountries](src/main/sql/leetcode/easy/BigCountries.sql)                                          |
+| 2            | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/)                             | [RecyclableLowFatProducts](src/main/sql/leetcode/easy/RecyclableLowFatProducts.sql)                  |
+| 3            | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/)                                                 | [FindCustomerReferee](src/main/sql/leetcode/easy/FindCustomerReferee.sql)                            |
+| 4            | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)                                         | [CustomersWhoNeverOrder](src/main/sql/leetcode/easy/CustomersWhoNeverOrder.sql)                      |
+| 5            | [Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus)                                              | [CalculateSpecialBonus](src/main/sql/leetcode/easy/CalculateSpecialBonus.sql)                        |
+| 6            | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)                                             | [DeleteDuplicateEmails](src/main/sql/leetcode/easy/DeleteDuplicateEmails.sql)                        |
+| 7            | [Swap Salary](https://leetcode.com/problems/swap-salary/)                                                                     | [SwapSalary](src/main/sql/leetcode/easy/SwapSalary.sql)                                              |
+| 8            | [Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/)                                                   | [FixNamesTables](src/main/sql/leetcode/easy/FixNamesTables.sql)                                      |
