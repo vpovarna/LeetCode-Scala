@@ -58,6 +58,7 @@ Problems
 | 48           | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)                                                       | [RemoveLinkedListElements](src/main/scala/com/leetcode/easy/RemoveLinkedListElements.scala)                         |
 | 49           | [Design HashSet](https://leetcode.com/problems/design-hashset/)                                                                                 | [DesignHashSet](src/main/scala/com/leetcode/easy/DesignHashSet.scala)                                               |
 | 50           | [Design HashMap](https://leetcode.com/problems/design-hashmap/)                                                                                 | [DesignHashMap](src/main/scala/com/leetcode/easy/DesignHashMap.scala)                                               |
+| 51           | [Move Zeroes](https://leetcode.com/problems/move-zeroes/)                                                                                       | [MoveZeros](src/main/scala/com/leetcode/easy/MoveZeros.scala)                                                       |
 
 ### Medium Problems
 
