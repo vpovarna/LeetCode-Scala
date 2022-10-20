@@ -118,6 +118,7 @@ Problems
 | 40           | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii)                                              | [SearchInRotatedSortedArrayII](src/main/scala/com/leetcode/medium/SearchInRotatedSortedArrayII.scala)                       |
 | 41           | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)                                                                 | [TopKFrequentElements](src/main/scala/com/leetcode/medium/TopKFrequentElements.scala)                                       |
 | 42           | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)                                                                       | [TopKFrequentWords](src/main/scala/com/leetcode/medium/TopKFrequentWords.scala)                                             |
+| 43           | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)                                                       | [SortCharactersByFrequency](src/main/scala/com/leetcode/medium/SortCharactersByFrequency.scala)                                             |
 
 ### Hard Problems
 
