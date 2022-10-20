@@ -4,8 +4,10 @@
 project/
 .idea/
 .bsp/
+.vscode/
 
 .DS_Store
 .settings
 *.iml
 /target/*
+.metals/
