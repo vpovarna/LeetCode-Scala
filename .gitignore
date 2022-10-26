@@ -5,6 +5,8 @@ project/
 .idea/
 .bsp/
 .vscode/
+.metals/
+.bloop/
 
 .DS_Store
 .settings
