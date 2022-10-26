@@ -25,7 +25,7 @@ object BinaryTreeTraversal {
   // one liner
   def inorderTraversalOneLine(root: TreeNode): List[Int] = {
     if (root == null) List()
-    else preorderTraversal(root.left) ++ List(root.value) ++ preorderTraversal(root.right)
+    else inorderTraversalOneLine(root.left) ++ List(root.value) ++ inorderTraversalOneLine(root.right)
   }
 
   // Node -> Left -> Right
