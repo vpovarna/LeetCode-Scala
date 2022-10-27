@@ -18,10 +18,8 @@ object BinaryTreePaths {
       List(tmpList.mkString("->"))
     } else {
       val tmpList = list :+ s"${root.value}"
-      getTreeNodeValues(root.left, tmpList) ++ getTreeNodeValues(
-        root.right,
-        tmpList
-      )
+      getTreeNodeValues(root.left, tmpList) ++
+        getTreeNodeValues(root.right, tmpList)
     }
   }
 
