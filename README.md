@@ -130,6 +130,7 @@ Problems
 | 42           | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)                                                                                  | [TopKFrequentWords](src/main/scala/com/leetcode/medium/TopKFrequentWords.scala)                                             |
 | 43           | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)                                                                  | [SortCharactersByFrequency](src/main/scala/com/leetcode/medium/SortCharactersByFrequency.scala)                             |
 | 44           | [Rotate List](https://leetcode.com/problems/rotate-list/)                                                                                                    | [RotateList](src/main/scala/com/leetcode/medium/RotateList.scala)                                                           |
+| 45           | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/submissions/)                                                                                                    | [BinaryTreeLevelOrderTraversalII](src/main/scala/com/leetcode/medium/BinaryTreeLevelOrderTraversalII.scala)                                                           |
 
 ### Hard Problems
 
