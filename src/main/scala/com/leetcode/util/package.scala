@@ -53,4 +53,9 @@ package object util {
     var left: TreeNode = _left
   }
 
+  class Node(_value: Int, _list: List[Node] = List()) {
+    var value = _value
+    var children: List[Node] = _list
+  }
+
 }
