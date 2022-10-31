@@ -134,6 +134,7 @@ Problems
 | 43           | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)                                                                  | [SortCharactersByFrequency](src/main/scala/com/leetcode/medium/SortCharactersByFrequency.scala)                             |
 | 44           | [Rotate List](https://leetcode.com/problems/rotate-list/)                                                                                                    | [RotateList](src/main/scala/com/leetcode/medium/RotateList.scala)                                                           |
 | 45           | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/submissions/)                                                                                                    | [BinaryTreeLevelOrderTraversalII](src/main/scala/com/leetcode/medium/BinaryTreeLevelOrderTraversalII.scala)                                                           |
+| 46           | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/submissions/)                                                                                                    | [NTreeLevelOrderTraversal](src/main/scala/com/leetcode/medium/NTreeLevelOrderTraversal.scala)                                                           |
 
 ### Hard Problems
 
