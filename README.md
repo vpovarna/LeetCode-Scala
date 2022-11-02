@@ -140,6 +140,7 @@ Problems
 | 46           | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/submissions/)                                   | [NTreeLevelOrderTraversal](src/main/scala/com/leetcode/medium/NTreeLevelOrderTraversal.scala)                               |
 | 47           | [Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)                                                               | [WhereWillTheBallFall](src/main/scala/com/leetcode/medium/WhereWillTheBallFall.scala)                                       |
 | 48           | [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)                                                 | [NumberOfMatchingSubsequence](src/main/scala/com/leetcode/medium/NumberOfMatchingSubsequence.scala)                         |
+| 49           | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)                                                               | [Minimum Genetic Mutation](src/main/scala/com/leetcode/medium/MinimumGeneticMutation.scala)                                 |
 
 ### Hard Problems
 
