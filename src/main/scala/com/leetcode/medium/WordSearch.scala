@@ -29,7 +29,7 @@ object WordSearch {
     if(index == word.length) {
       true
     }
-    else if(i < 0 || j < 0 || i == board.length || j == board(i).length || board(i)(j) != word(index)){
+    else if(i < 0 || j < 0 || i >= board.length || j >= board(i).length || board(i)(j) != word(index)){
       false
     }
     else {
