@@ -23,7 +23,7 @@ object RemoveAllAdjacentDuplicatesInStringII {
         }
       }
       queue.toArray
-        .map { case (c, j) => s"$c" * j}
+        .map { case (c, j) => s"$c" * j }
         .mkString("")
     }
   }
