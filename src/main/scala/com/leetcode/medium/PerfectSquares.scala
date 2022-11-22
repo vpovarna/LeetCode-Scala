@@ -1,5 +1,7 @@
 package com.leetcode.medium
 
+import scala.util.control.Breaks.{break, breakable}
+
 object PerfectSquares {
 
   // Dynamic programming
@@ -8,9 +10,12 @@ object PerfectSquares {
     dp(0) = 0
 
     for (target <- 1 to n) {
-      for (s <- 1 to target) {
-        val square = s * s
-        if (target - square >= 0) {
+      breakable {
+        for (s <- 1 to target) {
+          val square = s * s
+          if (target - square < 0) {
+            break
+          }
           dp(target) = math.min(dp(target), 1 + dp(target - square))
         }
       }
