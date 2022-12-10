@@ -26,6 +26,31 @@ object MaximumProductOfSplittedBinaryTree {
       root.value + subTreeSum(root.left) + subTreeSum(root.right)
   }
 
+
+  // simpler method
+  def maxProduct_v2(root: TreeNode): Int = {
+    val sums = collection.mutable.ArrayBuffer.empty[Long]
+    def helper(node: TreeNode): Long = {
+      if (node == null) 0
+      else {
+        val leftSum: Long = helper(node.left);
+        val rightSum: Long = helper(node.right)
+        val sum = leftSum + rightSum + node.value
+        sums.addOne(sum)
+        sum
+      }
+    }
+
+    val total = helper(root)
+
+    val max: Long = sums.foldLeft(0L) { (max, s) =>
+      val p = s * (total - s)
+      Math.max(p, max)
+    }
+
+    (max % 1000000007).toInt
+  }
+
   def main(args: Array[String]): Unit = {
     val tree = new TreeNode(
       1,
@@ -46,6 +71,5 @@ object MaximumProductOfSplittedBinaryTree {
 
     println(maxProduct(tree2))
   }
-
 
 }
