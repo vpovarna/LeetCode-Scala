@@ -10,8 +10,7 @@ object BinaryTreeMaximumPathSum {
       else {
         val (left, right) = (getLP(node.left), getLP(node.right))
         result = Math.max(result, node.value + left + right)
-        val tmpMaxRightLeft = Math.max(left, right)
-        Math.max(node.value + tmpMaxRightLeft, 0)
+        0
       }
     }
 
