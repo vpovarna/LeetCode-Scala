@@ -21,8 +21,8 @@ object BinaryTreeMaximumPathSum {
           }
         }
       }
+      postOrderTraversal(root)
     }
-    postOrderTraversal(root)
 
     result
   }
